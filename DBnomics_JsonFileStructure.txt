@@ -1,0 +1,149 @@
+
+{
+"_meta": "some text here",
+"dataset": "some data here",
+"errors": "some errors info here",
+"provider": "some provider info here",
+"series": {
+            "docs": [
+                      {
+                        "@frequency": "annual",
+                        "dataset_code": "CHELEM-TRADE-CHEL",
+                        "dataset_name": "CHELEM - International Trade (CHELEM sectoral classification)",
+                        "dimensions": {
+                                      "exporter": "AES",
+                                      "importer": "AES",
+                                      "product": "CAT_BA",
+                                      "secgroup": "CAT"},
+                        "indexed_at": "2023-06-08T14:45:21.851Z",
+                        "period": ["1967",
+                                    "1968",
+                                    "1969",
+                                    "1970"],
+                        "period_start_day": [
+                                  "1967-01-01",
+                                  "1968-01-01",
+                                  "1969-01-01",
+                                  "1970-01-01"],
+                        "provider_code": "CEPII",
+                        "series_code": "AES.AES.CAT.BA",
+                        "series_name": "Exports from South-East Asia to South-East Asia - Category - BA - Cement, million US dollars",
+                        "value": [4.4180715605, 
+                                  3.769449376, 
+                                  5.4290137388, 
+                                  10.177992898] 
+                        },
+                
+                      {
+                        "@frequency": "annual",
+                        "dataset_code": "CHELEM-TRADE-CHEL",
+                        "dataset_name": "CHELEM - International Trade (CHELEM sectoral classification)",
+                        "dimensions": {
+                                      "exporter": "AES",
+                                      "importer": "AES",
+                                      "product": "CAT_BB",
+                                      "secgroup": "CAT"
+                                        },
+                            "indexed_at": "2023-06-08T14:45:21.851Z",
+                            "period": [
+                                      "1967",
+                                      "1968",
+                                      "1969",
+                                      "1970"],
+                     "period_start_day": [
+                                      "1967-01-01",
+                                      "1968-01-01",
+                                      "1969-01-01",
+                                      "1970-01-01"],
+                     "provider_code": "CEPII",
+                            "series_code": "AES.AES.CAT.BB",
+                            "series_name": "Exports from South-East Asia to South-East Asia - Category - BB - Ceramics, million US dollars",
+                            "value": [0.6184642669, 
+                                      0.7348907949, 
+                                      0.9843172485, 
+                                      1.6283908393]
+                    },
+                
+                    {
+                        "@frequency": "annual",
+                        "dataset_code": "CHELEM-TRADE-CHEL",
+                        "dataset_name": "CHELEM - International Trade (CHELEM sectoral classification)",
+                        "dimensions": {
+                                      "exporter": "AES",
+                                      "importer": "AES",
+                                      "product": "CAT_BC",
+                                      "secgroup": "CAT"
+                                       },
+                        "indexed_at": "2023-06-08T14:45:21.851Z",
+                        "period": [
+                                    "1967",
+                                    "1968",
+                                    "1969",
+                                    "1970"],
+                    "period_start_day": [
+                                        "1967-01-01",
+                                        "1968-01-01",
+                                        "1969-01-01",
+                                        "1970-01-01"],
+                    "provider_code": "CEPII",
+                        "series_code": "AES.AES.CAT.BC",
+                        "series_name": "Exports from South-East Asia to South-East Asia - Category - BC - Glass, million US dollars",
+                        "value": [1.8577003269, 
+                                  1.7412300729, 
+                                  1.6067953346, 
+                                  .279434734]
+                        },
+                
+                
+                    {
+                        "@frequency": "annual",
+                        "dataset_code": "CHELEM-TRADE-CHEL",
+                        "dataset_name": "CHELEM - International Trade (CHELEM sectoral classification)",
+                        "dimensions": {
+                                      "exporter": "AES",
+                                      "importer": "AES",
+                                      "product": "CAT_CA",
+                                      "secgroup": "CAT"
+                                        },
+                        "indexed_at": "2023-06-08T14:45:21.851Z",
+                        "period": [
+                                  "1967",
+                                  "1968",
+                                  "1969",
+                                  "1970"],
+                "period_start_day": [
+                                  "1967-01-01",
+                                  "1968-01-01",
+                                  "1969-01-01",
+                                  "1970-01-01"],
+                "provider_code": "CEPII",
+                        "series_code": "AES.AES.CAT.CA",
+                        "series_name": "Exports from South-East Asia to South-East Asia - Category - CA - Iron and steel, million US dollars",
+                        "value": [2.9447698392, 
+                                  2.693553636, 
+                                  4.8786395007, 
+                                  4.3807131584]
+                        }
+                   ]
+          },
+
+
+"series_dimensions_facets": {
+                            "exporter": [
+                              {
+                                "code": "AES",
+                                "count": 53376
+                              },
+                              {
+                                "code": "AFA",
+                                "count": 53376
+                              },
+                              {
+                                "code": "AFN",
+                                "count": 53376
+                              }
+                   ]
+           }
+
+
+}
