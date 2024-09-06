@@ -16,7 +16,7 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.max_colwidth', 25)
 pd.set_option('display.width', 200) 
 
-file_path = 'D:\\1st Year - MSc Data Science 2023-24\\Python Scripts\\dbnomics_json.json'
+file_path = 'D:\\your_file_path_here'
 
 with open('dbnomics_json.json', 'r') as file:
     json_file = json.load(file)
