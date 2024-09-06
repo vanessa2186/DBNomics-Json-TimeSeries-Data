@@ -2,7 +2,7 @@
 """
 Created on Sun Sep  1 16:59:20 2024
 
-@author: c23091913
+@author: vanessa coudert
 """
 
 # Import libraries
