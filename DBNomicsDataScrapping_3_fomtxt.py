@@ -196,7 +196,7 @@ def explode_json_df_cols(df):
 # Reda Json data
 df_data = read_json_from_txt(file_path, 'series', 'docs')                                # Time Series
 df_ref_data = read_json_from_txt(file_path, 'dataset', 'dimensions_values_labels')       # Reference data
-
+data_info = read_json_from_txt(file_path, 'dataset', 'description')                      # Dataset Info
 
 
 # Sort out columns with dictionaries (explode json columns)
@@ -213,7 +213,6 @@ df_exp.to_csv('CHELEM_TRADE_CHEL.csv')
 df_ref_exp.to_csv('CHELEM_TRADE_CHEL_REFDATA.csv')
 
 # Dataset Info to text
-
 with open('Dataset_Info.txt', 'w') as file:
     file.write(data_info)
 
