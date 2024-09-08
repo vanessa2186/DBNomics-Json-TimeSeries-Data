@@ -5,7 +5,9 @@ Created on Sun Sep  8 16:37:10 2024
 @author: vanessa coudert
 """
 
-# Import libraries
+# IMPORT LIBRARIES
+##################
+
 import requests
 import json
 import pandas as pd
@@ -17,6 +19,7 @@ pd.set_option('display.width', 200)
 
 
 # FUNCTIONS
+###########
 
 def read_json_api(url, key1, skey1):
 
