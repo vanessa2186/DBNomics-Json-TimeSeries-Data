@@ -11,6 +11,7 @@ The resulting files are:
 
 
 
-# FURTHER DEVELOPMENTS 1: A recusrsive approach would have been mre suitable here. I'm working on a new version that will use thsi approach.
-# FURTHER DEVELOPMENTS 2: The lines 157 onwards can be wrapped up in a function to process each step, using a for-loop iterating through each 
-each url (there is actually 3 of them and the one below is just one of them).
+FURTHER DEVELOPMENTS:
+- A recusrsive approach would have been mre suitable here. I'm working on a new version that will use thsi approach.
+- The lines 157 onwards can be wrapped up in a function to process each step, using a for-loop iterating through each
+  each url (there is actually 3 of them and the one below is just one of them).
